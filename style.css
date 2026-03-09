@@ -1,0 +1,102 @@
+/* Body and background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('Background.webp'); /* Your dimmed background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/* Dark overlay to dim the background */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.4); /* semi-transparent black overlay */
+    min-height: 100vh;
+    color: white;
+    padding: 20px;
+}
+
+/* Logo Image */
+.logo-img {
+    width: 150px;       /* small logo */
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+/* Text Logo */
+.logo {
+    font-size: 80px;
+    font-weight: bold;
+    color: #f4f2ef;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.tagline {
+    font-size: 27px;
+}
+
+/* Button */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #c77b23;
+    color: white;
+    font-weight: bold;
+}
+
+/* IT Solutions horizontally */
+.it-solutions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+./* IT Solution buttons */
+.it-solutions a{
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black !important;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none !important;
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+/* IT Solution Links Style */
+.it-solutions a{
+    color: white;              /* text color */
+    font-weight: bold;         /* bold text */
+    text-decoration: none;     /* remove underline */
+    background-color: rgba(255,255,255,0.2);
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid white;
+}
+
+/* Hover effect */
+.it-solutions a:hover{
+    background-color: #c77b23;
+    color: white;
+    border: 1px solid #c77b23;
+}
+
+.it-solutions a:hover{
+    background-color: #c77b23;
+    color: white !important;
+}
+
+.it-solutions a:hover {
+    background-color: #c77b23;
+    color: white;
+}
