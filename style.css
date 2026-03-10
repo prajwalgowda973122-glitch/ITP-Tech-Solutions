@@ -100,3 +100,14 @@ button {
     background-color: #c77b23;
     color: white;
 }
+
+.whatsapp-btn{
+background:#25D366;
+color:white;
+padding:12px 20px;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+display:inline-block;
+margin:20px;
+}
